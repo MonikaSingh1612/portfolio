@@ -1,1 +1,50 @@
-<h1>Hello, Portfolio</h1>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Monika Singh — Web Developer</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:0;background:#f6f7fb;color:#111}
+    header{background:#0b5cff;color:white;padding:40px 20px;text-align:center}
+    .container{max-width:900px;margin:24px auto;padding:0 16px}
+    .projects{display:grid;grid-template-columns:1fr;gap:12px}
+    .card{background:white;padding:16px;border-radius:8px;box-shadow:0 4px 14px rgba(10,10,10,0.06)}
+    a.button{display:inline-block;margin-top:10px;padding:8px 12px;border-radius:6px;text-decoration:none;background:#0b5cff;color:white}
+    @media(min-width:700px){ .projects{grid-template-columns:1fr 1fr} }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Monika Singh</h1>
+    <p>Fresher Web Developer — HTML • CSS • JavaScript • PHP • MySQL</p>
+  </header>
+
+  <div class="container">
+    <section class="card">
+      <h2>About</h2>
+      <p>Hi — main web developer hoon. Main real projects bana ke seekh rahi hoon aur internships ke liye ready hoon. Neeche mere featured projects hain — click karke repository dekho.</p>
+      <p><a class="button" href="https://github.com/your-username" target="_blank">My GitHub</a></p>
+    </section>
+
+    <h2 style="margin-top:18px">Featured Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>LMS Project</h3>
+        <p>Course enrollment, student dashboard, admin panel, videos, MySQL backend.</p>
+        <a class="button" href="https://github.com/your-username/lms-project" target="_blank">View Repo</a>
+      </div>
+      <div class="card">
+        <h3>E-commerce (Frontend)</h3>
+        <p>Product list, cart, checkout UI (static/demo).</p>
+        <a class="button" href="https://github.com/your-username/ecommerce-frontend" target="_blank">View Repo</a>
+      </div>
+    </div>
+
+    <section class="card" style="margin-top:14px">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    </section>
+  </div>
+</body>
+</html>
